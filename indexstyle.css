@@ -1,0 +1,148 @@
+body {
+    background-color: #1A1D21;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+#cld_name {
+    color: #fff;
+    background: linear-gradient(to top, #2b35399d 50%, transparent 50%);
+    height: 46px;
+    width: 260px;
+    text-align: center;
+}
+
+.server_online_div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+}
+
+.server_online_div > span {
+    margin-left: 10px;
+    color: #809ca7;
+}
+
+.server_online_div_circle {
+    width: 15px;
+    height: 15px;
+    background-color: #43ff4f;
+    border-radius: 30px;
+    border: 5px solid #273544
+}
+
+.server_status_div {
+    background-color: #323542;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.525);
+}
+
+.server_status_wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.server_status_cpu, .server_status_memory, .server_status_ssd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 15px 0px 15px;
+}
+
+.server_status_cpu_progress, .server_status_memory_progress, .server_status_ssd_progress {
+    width: 200px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.server_status_cpu_progress {
+    background-color: #478ef835;
+}
+.server_status_memory_progress {
+    background-color: #5FD06635;
+}
+.server_status_ssd_progress {
+    background-color: #F9A34C35;
+}
+
+.server_status_cpu_progress_value {
+    border-radius: 30px;
+    background-color: #478ef8;
+    width: 50%;
+    height: 100%;
+}
+.server_status_memory_progress_value {
+    border-radius: 30px;
+    background-color: #5FD066;
+    width: 83%;
+    height: 100%;
+}
+.server_status_ssd_progress_value {
+    border-radius: 30px;
+    background-color: #F9A34C;
+    width: 34%;
+    height: 100%;
+}
+
+.name_server {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.server_list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px
+}
+.server_list_create {
+    background-color: rgba(0, 85, 255, 0.221);
+    color: rgb(118, 164, 255);
+    font-weight: 900;
+    padding: 100px 50px 100px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.server_list_create > span {
+    margin-top: 15px;
+}
+
+
+
+.footer_menu {
+    width: 85%;
+    height: 80px;
+    background-color: #323542;
+    border-radius: 18px;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.footer_menu_select {
+    background-color: rgba(255, 255, 255, 0.105);
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.footer_menu_nonselect {
+    padding: 8px;
+    opacity: 0.4
+}
